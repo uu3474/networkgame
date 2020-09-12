@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="System.Collections.Generic.Dictionary[System.String, Microsoft.Xna.Framework.Rectangle]">
+<Item><Key>button_circle</Key><Value>0 0 66 66</Value></Item>
+<Item><Key>pixel2</Key><Value>1 68 2 2</Value></Item>
+</Asset>
+</XnaContent>

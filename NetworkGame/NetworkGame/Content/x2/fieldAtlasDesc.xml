@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="System.Collections.Generic.Dictionary[System.String, Microsoft.Xna.Framework.Rectangle]">
+<Item><Key>wire_angle_2</Key><Value>0 0 130 130</Value></Item>
+<Item><Key>wire_angle_3</Key><Value>131 0 130 130</Value></Item>
+<Item><Key>wire_angle_4</Key><Value>262 0 130 130</Value></Item>
+<Item><Key>wire_end</Key><Value>0 131 130 14</Value></Item>
+<Item><Key>wire_line</Key><Value>0 146 130 14</Value></Item>
+</Asset>
+</XnaContent>

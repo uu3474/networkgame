@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="System.Collections.Generic.Dictionary[System.String, Microsoft.Xna.Framework.Rectangle]">
+<Item><Key>display_back</Key><Value>0 0 64 64</Value></Item>
+<Item><Key>display_front</Key><Value>0 65 56 56</Value></Item>
+<Item><Key>display_globe</Key><Value>65 0 38 38</Value></Item>
+<Item><Key>display_spinner</Key><Value>65 39 38 38</Value></Item>
+</Asset>
+</XnaContent>
