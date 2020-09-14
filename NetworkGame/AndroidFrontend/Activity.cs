@@ -6,14 +6,13 @@ using Android.Views;
 
 namespace AndroidFrontend
 {
-    [Activity(Label = "Network"
-        , MainLauncher = true
-        , Icon = "@drawable/icon"
-        , Theme = "@style/Theme.Splash"
-        , AlwaysRetainTaskState = true
-        , LaunchMode = Android.Content.PM.LaunchMode.SingleInstance
-        , ScreenOrientation = ScreenOrientation.Portrait
-        /*, ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.Keyboard | ConfigChanges.KeyboardHidden | ConfigChanges.ScreenSize*/)]
+    [Activity(Label = "Network",
+        MainLauncher = true,
+        Icon = "@drawable/icon",
+        Theme = "@style/Theme.Splash",
+        AlwaysRetainTaskState = true,
+        LaunchMode = Android.Content.PM.LaunchMode.SingleInstance,
+        ScreenOrientation = ScreenOrientation.Portrait)]
     public class Activity : Microsoft.Xna.Framework.AndroidGameActivity
     {
         AGame m_game;
@@ -21,8 +20,6 @@ namespace AndroidFrontend
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
-            //var glVersion = ((ActivityManager)GetSystemService(Context.ActivityService)).DeviceConfigurationInfo.ReqGlEsVersion;
 
             m_game = new AGame();
             m_game.Run();
@@ -32,7 +29,6 @@ namespace AndroidFrontend
             //Black screen blink fix(https://stackoverflow.com/questions/5391089/how-to-make-surfaceview-transparent)
             view.SetZOrderOnTop(true);
             view.Holder.SetFormat(Android.Graphics.Format.Transparent);
-            //=========================================================
 
             SetContentView(view);
         }
